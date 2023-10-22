@@ -107,7 +107,7 @@ b=Button(f,text="%",font="lucida 14 bold",padx=11,pady=5)
 b.bind("<Button-1>",click)
 b.pack(side=LEFT,padx=5,pady=5)
 
-b=Button(f,text="=",font="lucida 14 bold",padx=15,pady=5)
+b=Button(f,text="+",font="lucida 14 bold",padx=15,pady=5)
 b.bind("<Button-1>",click)
 b.pack(side=LEFT,padx=5,pady=5)
 
@@ -123,7 +123,7 @@ b=Button(f,text=".",font="lucida 14 bold",padx=18,pady=5)
 b.bind("<Button-1>",click)
 b.pack(side=LEFT,padx=5,pady=5)
 
-b=Button(f,text="00",font="lucida 14 bold",padx=10,pady=5)
+b=Button(f,text="=",font="lucida 14 bold",padx=15,pady=5)
 b.bind("<Button-1>",click)
 b.pack(side=LEFT,padx=5,pady=5)
 
